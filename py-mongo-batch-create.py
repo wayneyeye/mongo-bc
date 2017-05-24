@@ -11,7 +11,7 @@ collection=db.test
 
 # timer start
 start=time.time()
-for i in range(1000000):
+for i in range(10000):
 	collection.insert({"foo":"bar","baz":i,"z":10-i})
 # timer end
 total=time.time()-start
