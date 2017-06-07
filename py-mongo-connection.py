@@ -7,7 +7,7 @@ uri = "mongodb://yewenhe0904:k2cxtrb64vi@"+host+":"+port+"/test_db?authMechanism
 client = MongoClient(uri)
 
 
-db=client.test_db
-collection=db.test
+# db=client.test_db
+# collection=db.test
 
-pprint.pprint(collection.find_one())
+# pprint.pprint(collection.find_one())
